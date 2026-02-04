@@ -1,0 +1,47 @@
+import math as m
+def subtrair(x: float, y: float) -> float:
+    """
+    Subtrai dois números
+    :param x: valor subtraido
+    :param y: valor a subtrair
+    :return: retorna o resultado da subtraçao
+    """
+    return x - y
+
+
+def somar(x: float, y: float) -> float:
+    return x + y
+
+
+def dividir(x: float, y: float) -> float:
+    if y == 0:
+        raise ZeroDivisionError("Cannot divide by zero")
+    return x / y
+
+
+def multiplicar(x: float, y: float) -> float:
+    return x * y
+
+def raizquadrada( x: float) -> float:
+    if(x<0):
+        raise Exception(" nao podes por  numeros  menores que zero")
+    return m.sqrt(x)
+
+def main():
+    print("Preciso que introduza dois valores:")
+    x: float = float(input("x="))
+    y: float = float(input("y="))
+
+    # Teste
+    # print(res)
+    print("soma:",somar(x,y))
+    print("diferenca:",subtrair(x,y))
+    try:
+        print("divisão:",dividir(x,y))
+    except: ZeroDivisionError("não  é possivel dividir um numero por 0")
+    print("multiplicação:",multiplicar(x,y))
+    print("raiz quadrada  de x:",raizquadrada(x))
+    
+
+if __name__ == '__main__':
+    main()
