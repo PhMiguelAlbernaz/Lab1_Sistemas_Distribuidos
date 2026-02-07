@@ -9,6 +9,14 @@ class Divisao:
 
     """  
     def __init__(self,x,y):
+        """
+        Docstring for __init__
+        
+        :param self: Description
+        :param x: inicia o atributo self.x da instancia da classe Divisao com o valor de x
+        :param y: inicia o atributo self.y da instancia da classe Divisao com o valor de y
+        self.resultado  é inicializado  a 0
+        """
         self.x = x
         self.y=y
         self.resultado=0

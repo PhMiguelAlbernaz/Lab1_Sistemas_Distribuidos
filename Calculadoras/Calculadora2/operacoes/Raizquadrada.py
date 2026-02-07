@@ -8,6 +8,13 @@ fazer a raiz quadrada da o parametro que a mesma recebe
 
     """
     def __init__(self,x):
+        """
+        Docstring for __init__
+        
+        :param self: Description
+        :param x: inicia o atributo self.x da instancia da classe raizquadrada com o valor de x
+        self.resultado  é inicializado  a 0
+        """
         self.x=x
         self.resultado=0
 
