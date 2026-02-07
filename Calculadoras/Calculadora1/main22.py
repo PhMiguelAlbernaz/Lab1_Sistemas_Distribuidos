@@ -1,8 +1,8 @@
-import Substrair as sub
-import Somar as som
-import Dividir as div
-import RaizQuadrada as rz
-import Multiplicar as mult
+import Calculadoras.Calculadora1.Substrair as sub
+import Calculadoras.Calculadora1.Somar as som
+import Calculadoras.Calculadora1.Dividir as div
+import Calculadoras.Calculadora1.RaizQuadrada as rz
+import Calculadoras.Calculadora1.Multiplicar as mult
 
 def main():
     A=float(input("digite um numero: "))

@@ -8,11 +8,18 @@ class Diferenca:
     Docstring for Diferenca
     A funcao diferenca tem o proposito de subtrair os numeros que a mesma recebe nos parametros
     """    
-    def diferenca(self,x:int,y:int):
+    def __init__(self,x:int,y:int):
+        self.x = x
+        self.y=y
+        self.resultado=0
+
+    def diferenca(self):
         """
         Docstring for diferenca
         
-        :param x: tem valor inteiro 
-        :param y: tem valor inteiro
+        self.resultado toma o valor de   self.x-self.y
+        da retorno de self.resultado 
         """
-        return x-y
+
+        self.resultado=self.x-self.y
+        return self.resultado 

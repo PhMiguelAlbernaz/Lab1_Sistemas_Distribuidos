@@ -6,14 +6,19 @@ class Soma:
     Docstring for Soma
     funcao somar que tem como proposito somar dois numeros
     """
-    def somar(self,x:int,y:int):
-        """
-        Docstring for somar
+    def __init__(self,x:int,y:int):
+        self.x = x
+        self.y=y
+        self.resultado=0
 
-        :param x: numero inteiro
-        :param y: numero inteiro 
+    def soma(self):
         """
-        return x+y
-    
+        Docstring for soma
+        
+        o valor de self.resultado  muda  self.x/self.y 
+        da retorno de self.resultado
+        """
+        self.resultado=self.x+self.y
+        return self.resultado 
 
 

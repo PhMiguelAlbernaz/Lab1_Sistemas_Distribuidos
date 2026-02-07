@@ -8,6 +8,11 @@ class Divisao:
  funcao divisao que tem como proposito dividir dois numeros que sao impostos pelos parametros
 
     """  
+    def __init__(self,x,y):
+        self.x = x
+        self.y=y
+        self.resultado=0
+
     def divisao(self,x:int,y:int):
         """
         Docstring for divisao
@@ -16,7 +21,10 @@ class Divisao:
         :param x: dividendo   
         :param y: divisor
         """
-        return x/y # divide o valor de x por y
+        self.x=x
+        self.y=y
+        self.resultado=x/y
+        return self.resultado # divide o valor de x por y
     
 
 
