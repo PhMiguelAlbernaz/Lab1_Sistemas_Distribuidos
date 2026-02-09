@@ -1,0 +1,4 @@
+justificacao do import no main2 :
+
+se  nao  for colocado o import no main2  nao poderei efetuar as operacoes  das classes  que contem as opercaoes 
+mencionadas no main2
